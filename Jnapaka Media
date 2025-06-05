@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jnapaka Media</title>
+  <!-- Tailwind CSS CDN for styling -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+  <!-- Kannada font from Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: 'Noto Sans Kannada', sans-serif;
+    }
+    /* Primary brand colors */
+    .brand-blue {
+      color: #1D4ED8;
+    }
+    .brand-orange {
+      color: #F97316;
+    }
+    .bg-brand-blue {
+      background-color: #1D4ED8;
+    }
+    .bg-brand-orange {
+      background-color: #F97316;
+    }
+  </style>
+</head>
+<body class="bg-neutral-100 text-neutral-900">
+  <!-- HEADER -->
+  <header class="flex items-center justify-between px-8 py-6 bg-white shadow-md">
+    <div class="flex items-center space-x-3">
+      <!-- Logo: place logo.png in the same folder as this HTML -->
+      <img src="logo.png" alt="Jnapaka Media Logo" class="w-12 h-12" />
+      <h1 class="text-3xl font-extrabold brand-blue">Jnapaka Media</h1>
+    </div>
+    <nav class="space-x-6 text-base font-medium">
+      <a href="#services" class="hover:underline brand-blue">Services</a>
+      <a href="#portfolio" class="hover:underline brand-blue">Portfolio</a>
+      <a href="#pricing" class="hover:underline brand-blue">Pricing</a>
+      <a href="#contact" class="hover:underline brand-blue">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="text-center px-8 py-16">
+    <h2 class="text-5xl font-bold mb-4 brand-blue">
+      Empowering Kannada Businesses Online
+    </h2>
+    <p class="text-lg max-w-2xl mx-auto text-neutral-700">
+      We specialize in digital marketing, website design, social media strategies, and local SEO for Kannada-speaking entrepreneurs and small businesses.
+    </p>
+    <a
+      href="#contact"
+      class="inline-block mt-8 px-6 py-3 bg-brand-orange text-white font-semibold rounded-lg shadow hover:bg-orange-600 transition"
+      >Get Started</a
+    >
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="px-8 py-12 bg-white">
+    <h3 class="text-3xl font-bold mb-8 text-center brand-blue">Our Services</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-neutral-50 p-6 rounded-2xl shadow-sm">
+        <h4 class="text-2xl font-semibold mb-2 brand-blue">Website Design</h4>
+        <p class="text-neutral-700">
+          Modern, mobile-friendly websites in Kannada and English.
+        </p>
+      </div>
+      <div class="bg-neutral-50 p-6 rounded-2xl shadow-sm">
+        <h4 class="text-2xl font-semibold mb-2 brand-blue">
+          Social Media Marketing
+        </h4>
+        <p class="text-neutral-700">
+          Content creation, post scheduling, and analytics.
+        </p>
+      </div>
+      <div class="bg-neutral-50 p-6 rounded-2xl shadow-sm">
+        <h4 class="text-2xl font-semibold mb-2 brand-blue">SEO & Local Search</h4>
+        <p class="text-neutral-700">
+          Get found on Google by Kannada-speaking customers.
+        </p>
+      </div>
+      <div class="bg-neutral-50 p-6 rounded-2xl shadow-sm">
+        <h4 class="text-2xl font-semibold mb-2 brand-blue">
+          Branding & Logo Design
+        </h4>
+        <p class="text-neutral-700">
+          Professional logos and identity kits.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="px-8 py-12">
+    <h3 class="text-3xl font-bold mb-8 text-center brand-blue">Our Portfolio</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Replace src with your actual portfolio images -->
+      <img
+        src="https://via.placeholder.com/600x400?text=Project+1"
+        alt="Project 1"
+        class="w-full rounded-xl shadow-md"
+      />
+      <img
+        src="https://via.placeholder.com/600x400?text=Project+2"
+        alt="Project 2"
+        class="w-full rounded-xl shadow-md"
+      />
+    </div>
+  </section>
+
+  <!-- PRICING SECTION -->
+  <section id="pricing" class="px-8 py-12 bg-white">
+    <h3 class="text-3xl font-bold mb-8 text-center brand-blue">Pricing</h3>
+    <div class="max-w-xl mx-auto">
+      <ul class="space-y-4 text-neutral-800">
+        <li>
+          <span class="font-semibold">Website Design (Basic):</span> ₹12,000
+        </li>
+        <li>
+          <span class="font-semibold">Website Design (Advanced):</span> ₹20,000
+        </li>
+        <li>
+          <span class="font-semibold">Social Media Management:</span> ₹8,000/month
+        </li>
+        <li>
+          <span class="font-semibold">Logo & Branding:</span> ₹5,000
+        </li>
+        <li>
+          <span class="font-semibold">SEO Package:</span> ₹7,500
+        </li>
+        <li>
+          <span class="font-semibold"
+            >Digital Marketing Plan:</span
+          > ₹15,000/month
+        </li>
+      </ul>
+      <p class="mt-6 text-center text-neutral-600">
+        Discounts available for bundled services or long-term contracts.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="px-8 py-12">
+    <h3 class="text-3xl font-bold mb-6 text-center brand-blue">Contact Us</h3>
+    <div class="max-w-lg mx-auto bg-neutral-50 p-8 rounded-2xl shadow-sm">
+      <form action="#" method="POST" class="space-y-4">
+        <input
+          type="text"
+          name="name"
+          placeholder="ನಿಮ್ಮ ಹೆಸರು (Your Name)"
+          required
+          class="w-full p-3 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-blue"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="ನಿಮ್ಮ ಇಮೇಲ್ (Your Email)"
+          required
+          class="w-full p-3 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-blue"
+        />
+        <textarea
+          name="message"
+          rows="4"
+          placeholder="ಸಂದೇಶ (Your Message)"
+          required
+          class="w-full p-3 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-blue"
+        ></textarea>
+        <button
+          type="submit"
+          class="w-full py-3 bg-brand-orange text-white font-semibold rounded-lg hover:bg-orange-600 transition"
+        >
+          Send Message
+        </button>
+      </form>
+      <div class="mt-6 text-neutral-700 space-y-1">
+        <p>📞 Phone: +91-9019199604</p>
+        <p>📧 Email: contact@jnapakamedia.in</p>
+        <p>📍 Serving Karnataka – ಕನ್ನಡದಲ್ಲಿ ನಿಮ್ಮ ಡಿಜಿಟಲ್ ಸಂಭ್ರಮಕ್ಕಾಗಿ!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHATSAPP BUTTON -->
+  <a
+    href="https://wa.me/919019199604"
+    target="_blank"
+    class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition"
+    aria-label="WhatsApp Chat"
+  >
+    <!-- WhatsApp Icon (SVG) -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M20.52 3.48a11.95 11.95 0 00-16.9 0 11.95 11.95 0 000 16.9l-1.64 4.78a.75.75 0 00.96.96l4.78-1.64a11.95 11.95 0 0016.9-16.9zm-1.11 15.78a10.45 10.45 0 01-14.8 0 10.45 10.45 0 010-14.8 10.45 10.45 0 0114.8 0 10.45 10.45 0 010 14.8zM17.1 13.02c-.28-.14-1.64-.8-1.9-.89-.26-.08-.45-.12-.64.12s-.73.89-.9 1.07c-.17.18-.34.2-.63.07a7.12 7.12 0 01-2.1-1.3 8.13 8.13 0 01-1.5-1.84c-.16-.28 0-.43.13-.57.13-.13.28-.34.42-.51.14-.17.19-.3.28-.5.08-.17 0-.32-.02-.45-.02-.12-.64-1.54-.87-2.12-.23-.56-.47-.48-.64-.49h-.55c-.18 0-.45.07-.68.32s-.9.88-.9 2.15c0 1.27.92 2.5 1.05 2.68.12.17 1.8 2.74 4.36 3.84 2.56 1.11 2.56.74 3.02.69.45-.05 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.07-.12-.25-.18-.53-.32z"
+      />
+    </svg>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="bg-white py-6 mt-12">
+    <div class="text-center text-neutral-600 text-sm">
+      © <script>document.write(new Date().getFullYear())</script> Jnapaka Media. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
